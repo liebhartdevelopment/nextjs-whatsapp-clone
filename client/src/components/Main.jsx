@@ -54,7 +54,6 @@ function Main() {
       <div className='grid grid-cols-main h-screen w-screen max-h-screen max-w-full overflow-hidden'>
         <ChatList />
         {currentChatUser ? <Chat /> : <Empty />}
-        <Chat />
       </div>
     </>
   )
